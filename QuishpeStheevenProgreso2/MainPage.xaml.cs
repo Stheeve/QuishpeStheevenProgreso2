@@ -16,6 +16,7 @@
 
         private void About_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new Grid());
 
         }
     }

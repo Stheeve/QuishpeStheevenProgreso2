@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuishpeStheevenProgreso2.Grid"
+             Title="Grid">
+    <Grid Padding="20" RowSpacing="20" ColumnSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        
+        <Grid Grid.Row="0" Grid.Column="0" HeightRequest="100" WidthRequest="160">
+            <BoxView Color="Black" Margin="0"/>
+            <Grid Padding="10" BackgroundColor="White" Margin="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Text="Nombre:" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Stheeven Quishpe" Grid.Row="1" HorizontalOptions="Center"/>
+            </Grid>
+        </Grid>
+
+        
+        <Grid Grid.Row="0" Grid.Column="1" HeightRequest="100" WidthRequest="160">
+            <BoxView Color="Black" Margin="0"/>
+            <Grid Padding="10" BackgroundColor="White" Margin="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Text="Fecha:" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="05/06/2025" Grid.Row="1" HorizontalOptions="Center"/>
+            </Grid>
+        </Grid>
+
+        
+        <Grid Grid.Row="1" Grid.Column="0" HeightRequest="100" WidthRequest="160">
+            <BoxView Color="Black" Margin="0"/>
+            <Grid Padding="10" BackgroundColor="White" Margin="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Text="Intereses:" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Boxeo" Grid.Row="1" HorizontalOptions="Center"/>
+            </Grid>
+        </Grid>
+
+        
+        <Grid Grid.Row="1" Grid.Column="1" HeightRequest="100" WidthRequest="160">
+            <BoxView Color="Black" Margin="0"/>
+            <Grid Padding="10" BackgroundColor="White" Margin="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Text="Versión:" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="1.0" Grid.Row="1" HorizontalOptions="Center"/>
+            </Grid>
+        </Grid>
+    </Grid>
+
+
+
+
+</ContentPage>
