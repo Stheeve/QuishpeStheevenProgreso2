@@ -11,7 +11,7 @@
 
         private void Chistes_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Absolute());
         }
 
         private void About_Clicked(object sender, EventArgs e)
