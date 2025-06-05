@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="QuishpeStheevenProgreso2.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+    <StackLayout Margin="20">
+        <Label Text="Bienvenido a la aplicacion de Stheeven Quishpe"
+               FontSize="60"
+               FontFamily="Arial"
+               HorizontalOptions="Center"/>
+        
+        
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
